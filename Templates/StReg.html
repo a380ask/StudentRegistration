@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Student Registration</title>
+  </head>
+  <body>
+    <h1 class="bg bg-primary ml-5 mt-5 mr-5 mb-5">Register your Student</h1>
+    <form class="" action="index.html" method="post">
+      <div class="form-row ml-5 mt-5 mr-5 mb-5">
+        <div class="form-group col-4 bg bg-danger">
+          <label for="stFirst">Student First Name</label>
+          <input type="text" id="stFirst" value="" placeholder="Bob" class="form-control">
+        </div>
+        <div class="form-group col-4 bg bg-warning">
+          <label for="stLast">Student Last Name</label>
+          <input type="text" id="stLast" value="" placeholder="Barone" class="form-control">
+        </div>
+        <div class="form-group col-4 bg bg-danger">
+          <label for="stid">Student ID</label>
+          <input type="" id="stid" value="" placeholder="" class="form-control">
+        </div>
+        <div class="form-group col-4 bg bg-warning">
+          <label for="dob">Student Date of Birth</label>
+          <input type="date" id="dob" value="" placeholder="" class="form-control">
+        </div>
+        <div class="form-group col-4 bg bg-danger">
+          <label for="gender"> Student Gender</label><br>
+          <input type="radio" id="male" id="gender" value="male">
+          <label for="male">Male</label>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">Other</label>
+        </div>
+        <div class="form-group col-4 bg bg-warning">
+          <label for="stRace">Student Race</label><br>
+          <label for="stRace1"> Asian</label>
+          <input type="checkbox" id="" name="stRace1" value="">
+          <label for="vehicle2"> African</label>
+          <input type="checkbox" id="" name="stRace2" value="">
+          <label for="vehicle3"> European</label>
+          <input type="checkbox" id="" name="stRace3" value="">
+        </div>
+        <div class="form-group col-auto bg bg-danger">
+          <label for="country">Student's country of Birth</label>
+          <input list="country" name="country" class="form-control">
+          <datalist id="country">
+            <option value="India">
+            <option value="China">
+            <option value="Pakistan">
+            <option value="Bangladesh">
+            <option value="Nepal">
+          </datalist>
+        </div>
+      </div>
+      <div class="col-auto ml-5 mt-5 mr-5 mb-5">
+        <!-- <button type="submit" name="button" class="form-control">Submit me!</button> -->
+        <a class="form-control" href="https://bsd405.org">Done!</a>
+      </div>
+    </form>
+  </body>
+</html>
